@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+/* NavBar */
+.navbar {
+  list-style-type: none;
+  display: flex;
+  background-color: rgba(0,0,0,0.10);
+  padding: 30px 10px;
+  position: relative;
+}
+
+a {
+  margin: 0 11px;
+  text-decoration: none;
+}
+
+.active{
+color: #E0EAF3;
+}
+
+ion-icon:hover, .hover-effect li:hover{
+  /* color: #BFD1E2; */
+  color: #E0EAF3;
+  /* text-decoration: underline; */
+  transition-duration: 0.2s;
+}
+
+li, h1, h2 {
+  /* color: #E7E7E7; */
+  color: #3C4F64;
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+}
+
+/* icons */
+.icons{
+  display: flex;
+  position: absolute;
+  left: 80%;
+}
+
+ion-icon {
+  font-size: 2em;
+  color: #3C4F64;
+}
+
+/* Photograph */
+.personal_photo {
+  /* Image Used */
+  background-image: url("../images/landing1.jpg");
+  /* Full Height */
+  height: 100%;
+  /* Scaling and Centering */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* Positioning the Photo for Text Overlay */
+  position: relative;
+}
+
+/* Over Image Text */
+.name_occupation {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  /* background-color: rgba(0,0,0,0.45); */
+}
+
+h1 {
+  word-spacing: 5px;
+  letter-spacing: 11px;
+  font-size: 50px;
+}
+
+li {
+  font-size: 19px;
+}
+
+h2 {
+  text-align: center;
+  /* text-decoration: underline; */
+}
+
+/* mobile responsiveness */
+@media (max-width: 992px) {
+  .icons{
+    left: 75%;
+    transition-duration: 2s;
+  }
+}
+
+@media (max-width: 765px) {
+  .icons{
+    left: 70%;
+    transition-duration: 2s;
+  }
+}
+
+@media (max-width: 690px) {
+  .icons{
+    left: 69%;
+  }
+}
+
+@media (max-width: 640px) {
+  h1{
+    font-size: 35px;
+    transition-duration: 2s;
+  }
+  .navbar{
+    padding: 30px 10px 55px 10px;
+    transition-duration: 2s;
+  }
+  .icons{
+    top: 60%;
+    left: 0%;
+    transition-duration: 2s;
+  }
+}
+
+@media (max-width: 400px) {
+  .icons {
+    left: 25%;
+  }
+}
