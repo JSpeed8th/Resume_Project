@@ -1,3 +1,4 @@
+/* Reset */
 * {
   padding: 0;
   margin: 0;
@@ -9,7 +10,17 @@ body, html {
   margin: 0;
 }
 
-/* NavBar */
+/* Photograph */
+.wrapper-photo {
+  background-image: url("../images/home.jpg");
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+/* NavBar (Shared Amongst html files) */
 .navbar {
   list-style-type: none;
   display: flex;
@@ -51,20 +62,6 @@ li, h1, h2 {
 ion-icon {
   font-size: 2em;
   color: #3C4F64;
-}
-
-/* Photograph */
-.personal_photo {
-  /* Image Used */
-  background-image: url("../images/landing1.jpg");
-  /* Full Height */
-  height: 100%;
-  /* Scaling and Centering */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* Positioning the Photo for Text Overlay */
-  position: relative;
 }
 
 /* Over Image Text */

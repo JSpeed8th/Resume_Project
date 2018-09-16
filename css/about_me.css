@@ -9,30 +9,14 @@ body, html {
   margin: 0;
 }
 
-/* Photograph */
-.about_me_photo {
-  /* Image Used */
-  background-image: url("../images/landing4.jpg");
-  /* Full Height */
+.wrapper-photo2 {
+  background-image: url("../images/about_me.jpg");
   height: 100%;
-  /* Scaling and Centering */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* Positioning the Photo for Text Overlay */
   position: relative;
 }
-
-/* NavBar */
-/* .navbar {
-  list-style-type: none;
-  display: flex;
-  background-color: rgba(176, 179, 184,0.85);
-
-  /* background: linear-gradient(to bottom, rgba(209, 195, 151,1) 25%,rgba(209, 195, 151,0.03) 99%,rgba(209, 195, 151,0) 100%); */
-  padding: 30px 10px;
-  position: relative;
-} */
 
 a {
   margin: 0 11px;
@@ -86,14 +70,13 @@ h2 {
 
 /* Text */
 .text-wrapper {
-  border-radius: 10px;
-  background-color: rgba(0,0,0,0.35);
-  padding: 18px 22px 18px 8px;
   position: absolute;
   top: 33%;
   left: 16%;
+  background-color: rgba(0,0,0,0.77);
+  border-radius: 10px;
+  padding: 18px 22px 18px 8px;
   width: 65%;
-  /* height: 44.9%; */
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 1%;
