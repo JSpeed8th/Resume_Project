@@ -93,9 +93,35 @@ h2 {
 }
 
 /* mobile responsiveness */
+@media (max-width: 1078px) {
+  .icons{
+    left: 77%;
+    transition-duration: 2s;
+  }
+}
+
 @media (max-width: 992px) {
   .icons{
     left: 75%;
+    transition-duration: 2s;
+  }
+}
+
+@media (max-width: 873px) {
+  .text {
+    font-size: 12px;
+    transition-duration: 2s;
+  }
+  .text-wrapper {
+    left: 8%;
+    width: 80%;
+    transition-duration: 2s;
+  }
+}
+
+@media (max-width: 864px) {
+  .icons{
+    left: 70%;
     transition-duration: 2s;
   }
 }
@@ -107,9 +133,16 @@ h2 {
   }
 }
 
+@media (max-width: 718px) {
+  .icons{
+    left: 65%;
+    transition-duration: 2s;
+  }
+}
+
 @media (max-width: 690px) {
   .icons{
-    left: 69%;
+    left: 65%;
   }
 }
 
