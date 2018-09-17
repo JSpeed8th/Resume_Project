@@ -100,3 +100,33 @@ h2 {
   /* color: #E0EAF3; */
   color: white;
 }
+
+@media (max-width: 1050px) {
+  .text-wrapper {
+    top: 25%;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 765px) {
+  .text-wrapper {
+    top: 25%;
+  }
+  .text {
+    font-size: 12px;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-wrapper {
+    /* top: 20%; */
+    padding: 11px 4px;
+    grid-template-columns: 1fr;
+    transition: 1s;
+  }
+  .text {
+    font-size: 12px;
+    transition: 1s;
+  }
+}

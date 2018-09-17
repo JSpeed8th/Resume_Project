@@ -39,16 +39,12 @@ color: #E0EAF3;
 }
 
 ion-icon:hover, .hover-effect li:hover{
-  /* color: #BFD1E2; */
   color: #E0EAF3;
-  /* text-decoration: underline; */
   transition-duration: 0.2s;
 }
 
 li, h1, h2 {
-  /* color: #E7E7E7; */
   color: #3C4F64;
-  /* font-family: 'Oswald', sans-serif; */
   font-family: 'Raleway', sans-serif;
 }
 
@@ -71,7 +67,6 @@ ion-icon {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  /* background-color: rgba(0,0,0,0.45); */
 }
 
 h1 {

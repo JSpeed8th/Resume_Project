@@ -15,12 +15,14 @@
 /* Text Box */
 .text-wrapper {
   position: absolute;
-  top: 33%;
-  left: 22%;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
   background-color: rgba(0,0,0,0.82);
   border-radius: 10px;
-  /* width: 60%; */
-  padding: 18px 22px;
+  width: auto;
+  padding: 20px 22px;
 }
 
 textarea {
@@ -29,6 +31,9 @@ textarea {
   border-radius: 10px;
   margin-bottom: 10px;
   font-family: 'Raleway', sans-serif;
+  padding: 10px;
+  overflow: scroll;
+  width: auto;
 }
 
 input {
@@ -36,9 +41,49 @@ input {
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
   margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 4px;
 }
 
 button {
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* mobile responsiveness */
+@media (max-width: 1024px) {
+  .text-wrapper, textarea {
+    width: auto;
+    transition: 2s;
+  }
+}
+
+@media (max-width: 992px) {
+  .text-wrapper, textarea {
+    width: auto;
+    transition: 2s;
+  }
+}
+
+@media (max-width: 765px) {
+  .text-wrapper, textarea {
+    width: 500px;
+    transition: 2s;
+    padding: 20px 0;
+  }
+  button, input {
+    margin: 10px;
+}
+
+@media (max-width: 500px) {
+  .text-wrapper, textarea {
+    width: 300px;
+    transition: 2s;
+    padding: 20px 0;
+  }
+  button, input {
+    margin: 10px;
+  }
 }
