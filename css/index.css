@@ -10,8 +10,8 @@ body, html {
   margin: 0;
 }
 
-/* Photograph */
-.wrapper-photo {
+/* Wallpaper */
+.wallpaper {
   background-image: url("../images/home.jpg");
   height: 100%;
   background-size: cover;
@@ -38,11 +38,6 @@ a {
 color: #E0EAF3;
 }
 
-ion-icon:hover, .hover-effect li:hover{
-  color: #E0EAF3;
-  transition-duration: 0.2s;
-}
-
 li, h1, h2 {
   color: #3C4F64;
   font-family: 'Raleway', sans-serif;
@@ -60,6 +55,12 @@ ion-icon {
   color: #3C4F64;
 }
 
+/* Icon activity within navbar */
+ion-icon:hover, .hover-effect li:hover{
+  color: #E0EAF3;
+  transition-duration: 0.2s;
+}
+
 /* Over Image Text */
 .name_occupation {
   position: absolute;
@@ -69,6 +70,7 @@ ion-icon {
   transform: translate(-50%, -50%);
 }
 
+/* Text Editing */
 h1 {
   word-spacing: 5px;
   letter-spacing: 11px;
@@ -84,7 +86,7 @@ h2 {
   /* text-decoration: underline; */
 }
 
-/* mobile responsiveness */
+/* Mobile responsiveness */
 @media (max-width: 1078px) {
   .icons{
     left: 77%;

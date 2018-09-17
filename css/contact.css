@@ -1,4 +1,4 @@
-.wrapper-photo4 {
+.wallpaper4 {
   background-image: url("../images/contact.jpg");
   height: 100%;
   background-size: cover;
@@ -24,7 +24,7 @@
   width: auto;
   padding: 20px 22px;
 }
-
+/* Form Content */
 textarea {
   font-size: 16px;
   text-align: center;
@@ -52,7 +52,7 @@ button {
   border-radius: 10px;
 }
 
-/* mobile responsiveness */
+/* Mobile Responsiveness */
 @media (max-width: 1024px) {
   .text-wrapper, textarea {
     width: auto;

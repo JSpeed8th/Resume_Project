@@ -8,8 +8,8 @@ body, html {
   height: 100%;
   margin: 0;
 }
-
-.wrapper-photo2 {
+/* Wallpaper */
+.wallpaper2 {
   background-image: url("../images/about_me.jpg");
   height: 100%;
   background-size: cover;
@@ -52,7 +52,7 @@ ion-icon {
   font-size: 2em;
   color: #3C4F64;
 }
-
+/* Text Editing */
 h1 {
   word-spacing: 5px;
   letter-spacing: 11px;
@@ -65,7 +65,6 @@ li {
 
 h2 {
   text-align: center;
-  /* text-decoration: underline; */
 }
 
 /* Text */
@@ -81,7 +80,7 @@ h2 {
   grid-template-columns: 1fr 2fr;
   grid-gap: 1%;
 }
-
+/* Flex Box */
 .portrait {
   background-image: url(../images/portrait2.jpg);
   border-radius: 10px;
@@ -101,6 +100,7 @@ h2 {
   color: white;
 }
 
+/* Mobile Responsiveness */
 @media (max-width: 1050px) {
   .text-wrapper {
     top: 25%;
