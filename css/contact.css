@@ -16,10 +16,10 @@
 .text-wrapper {
   position: absolute;
   top: 33%;
-  left: 16%;
+  left: 22%;
   background-color: rgba(0,0,0,0.82);
   border-radius: 10px;
-  width: 65%;
+  /* width: 60%; */
   padding: 18px 22px;
 }
 
@@ -27,4 +27,18 @@ textarea {
   font-size: 16px;
   text-align: center;
   border-radius: 10px;
+  margin-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+input {
+  display: block;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
 }

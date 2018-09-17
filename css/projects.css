@@ -15,4 +15,6 @@
 
 .message h1 {
   color: white;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: fantasy;
 }
